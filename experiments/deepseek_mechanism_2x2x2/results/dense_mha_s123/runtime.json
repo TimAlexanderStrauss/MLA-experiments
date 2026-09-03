@@ -1,0 +1,6 @@
+{
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5070",
+  "cuda_version": "12.8"
+}

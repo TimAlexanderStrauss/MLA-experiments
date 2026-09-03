@@ -1,0 +1,30 @@
+# MLA Ablation Experiment — Dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# PyTorch: Install manually for the correct CUDA version.
+#   RTX 5070 (Blackwell / sm_100) requires PyTorch >= 2.6.
+#   Check: https://pytorch.org/get-started/locally/
+#   Example (CUDA 12.8):
+#     pip install torch --index-url https://download.pytorch.org/whl/cu128
+#
+# torch.compile requires a TRITON-compatible environment.
+# If compilation fails, add --no-compile to the training command.
+
+# Data preparation
+datasets>=3.0.0           # HuggingFace datasets (FineWeb-Edu)
+tiktoken>=0.7.0           # GPT-2 BPE tokenizer
+tqdm>=4.66.0
+
+# Training (core)
+numpy>=1.26.0
+
+# Analysis & plotting
+pandas>=2.0.0
+matplotlib>=3.8.0
+scipy>=1.12.0
+statsmodels>=0.14.0       # 2-way ANOVA with interaction
+
+# Optional quality-of-life
+ipykernel                 # if running notebooks for analysis
