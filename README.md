@@ -1,4 +1,4 @@
-# mla-experiments — Reproduktionscode zur Seminararbeit über Multi-Head Latent Attention
+# MLA-experiments — Reproduktionscode zur Seminararbeit über Multi-Head Latent Attention
 
 Dieses Repository enthält den vollständigen Code, die Konfigurationen und die Rohdaten der vier
 Trainingsstudien zur Seminararbeit über **Multi-Head Latent Attention (MLA, DeepSeek-V2)**.
